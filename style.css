@@ -1,1 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
+body {
+   
+   font-family: 'Source Sans Pro';
+}
+
+body {
+   background-color: lightgray;
+}
+
+header {
+   font-family: 'Abril Fatface';
+}
+
+h1  {
+   font-family: 'Roboto Slab';
+   text-align: center;
+}
+
+.date {
+   padding-left: 49px;
+   padding-top: 5px;
+}
+
+h2 {
+   padding-left: 49px;
+}
+
+nav ul {
+   list-style-type: none;
+   text-align: center;
+}
+
+nav li {
+   display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+}
+
+li {
+   float: left;
+   
+}
+
+li a {
+   display: block;
+   text-align: center;
+   padding: 10px 6px;
+   text-decoration: none;
+   color: white;
+}
+
+li a:hover:not(.active) {
+   background-color: black;
+}
+
+.active {
+   background-color: dimgrey;
+}
+
+.column {
+   float: left;
+   width: 40%;
+   padding: 30px;
+   padding-top: 0px;
+ }
+
+.newspaper-container {
+   width: 700px;
+   margin: auto;
+   border-style: groove;
+   border-radius: 8px;
+   background-color: white;
+}
+
+h5 {
+   color: crimson;
+   padding-left: 49px;
+}
+
+.row:after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.center {
+   display: block;
+   padding-left: 49px;
+   padding-right: 49px;
+}
+
+main p {
+   padding-left: 60px;
+   padding-right: 60px;
+}
